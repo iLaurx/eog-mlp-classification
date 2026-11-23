@@ -1,0 +1,40 @@
+{
+  "dataset": "DataSet_completo.xlsx",
+  "filas": 200,
+  "semilla": 42,
+  "umbral_correlacion": 0.8,
+  "presupuesto_epocas": 600,
+  "seleccionada": "relu_16",
+  "epoca_usada": 53,
+  "n_entrenamiento": 120,
+  "n_validacion": 40,
+  "n_prueba": 40,
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "sklearn": "1.9.1",
+  "configuraciones": [
+    {
+      "nombre": "relu_16",
+      "hidden_layer_sizes": [
+        16
+      ],
+      "activation": "relu"
+    },
+    {
+      "nombre": "tanh_32",
+      "hidden_layer_sizes": [
+        32
+      ],
+      "activation": "tanh"
+    },
+    {
+      "nombre": "relu_32_16",
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "activation": "relu"
+    }
+  ]
+}

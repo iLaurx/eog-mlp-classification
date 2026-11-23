@@ -1,0 +1,190 @@
+{
+  "fuente": "DataSet_completo.xlsx",
+  "sha256": "9fd17eef8c75ea95912b19d7eaedecea85ee5d576f778e855358c26a1ee2dbd9",
+  "hojas": [
+    "Sheet1"
+  ],
+  "hoja_auditada": "Sheet1",
+  "filas": 200,
+  "columnas_totales": 31,
+  "objetivo": "Clase",
+  "predictoras_originales": 30,
+  "excluida_obligatoria": "Longitud",
+  "predictoras_sin_longitud": 29,
+  "faltantes_totales": 0,
+  "infinitos_totales": 0,
+  "filas_duplicadas": 0,
+  "columnas_constantes": [],
+  "filas_ordenadas_por_clase": true,
+  "conteo_por_clase": {
+    "1": 20,
+    "2": 20,
+    "3": 20,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20,
+    "9": 20,
+    "10": 20
+  },
+  "columnas": [
+    {
+      "nombre": "SC_Media_Derecha",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Media_Izquierda",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Media_Horizontales",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Varianza_Derecha",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Varianza_Izquierda",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Varianza_Horizontales",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Std_Derecha",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Std_Izquierda",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Std_Horizontales",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_NoPicos_Derecha",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_NoPicos_Izquierda",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_NoPicos_Horizontales",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DistanciaPicos_Derecha",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DistanciaPicos_Izquierda",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DistanciaPicos_Horizontales",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DifMaxMin_Derecha",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DifMaxMin_Izquierda",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_DifMaxMin_Horizontales",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "Longitud",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_Media",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_Varianza",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_Std",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_RMS",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_NoPicos",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Multiplicacion_DistanciaPicos",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Suma_Media",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Suma_Varianza",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Suma_Std",
+      "tipo": "float64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Suma_NoPicos",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "SC_Suma_DistanciaPicos",
+      "tipo": "int64",
+      "faltantes": 0
+    },
+    {
+      "nombre": "Clase",
+      "tipo": "int64",
+      "faltantes": 0
+    }
+  ],
+  "pares_correlacion_descriptiva_mayor_08": 16,
+  "advertencia": "Auditoria descriptiva de la fuente completa. No utilizar esta correlacion para seleccionar variables antes de evaluar. La seleccion final se ajusta solo con entrenamiento. No se ha exportado dataset reducido."
+}
