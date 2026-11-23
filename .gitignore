@@ -1,0 +1,30 @@
+# Entornos virtuales y dependencias locales
+.venv/
+venv/
+env/
+.dependencias/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales y de bloqueo de Office
+~$*
+*.tmp
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
